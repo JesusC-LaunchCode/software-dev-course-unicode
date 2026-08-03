@@ -82,55 +82,6 @@ Use String.fromCharCode to swap these characters and create a new string: "haunc
 Assign the result to a variable named swappedString.
 
 */
-/*
-
-Practice Problem #1
-
-Exercise 1: Retrieve and Add Two Code Points
-Objective: Extract the Unicode code points of the first two characters of a string,
-add them together, and return the result.
-
-Instructions:
-Write a program that takes a string with at least two characters.
-Use charCodeAt to get the Unicode code points of the first two characters.
-Add the two code points together and assign the result to a variable named sumCodePoints.
-Input:
-let inputString = "Hi";
-
-Expected Output:
-sumCodePoints: 177 // 'H' = 72, 'i' = 105, 72 + 105 = 177
-
-Exercise 2: Generate a String from Two Code Points
-Objective: Take two numeric Unicode code points,
-convert them to characters using String.fromCharCode,
-and combine them into a single string.
-
-Instructions:
-Write a program that accepts two numeric Unicode code points.
-Use String.fromCharCode to convert each code point to its corresponding character.
-Combine the two characters into a single string and assign it to a variable named combinedString.
-Input:
-let codePoint1 = 65;
-let codePoint2 = 66;
-
-Expected Output:
-combinedString: "AB" // 65 = 'A', 66 = 'B', combined = "AB"
-
-Exercise 3: Find the Character Difference
-Objective: Extract the Unicode code points of two given characters from a string
-and calculate the absolute difference between them.
-
-Instructions:
-Write a program that takes a string with at least two characters and two specified indices.
-Use charCodeAt to find the Unicode code points of the characters at the specified indices.
-Calculate the absolute difference between the two code points and assign it to a variable named codePointDifference.
-Input:
-let inputString = "Cat";
-let index1 = 0;
-let index2 = 2;
-
-Expected Output:
-codePointDifference: 16 // 'C' = 67, 't' = 116, |67 - 116| = 16 */
 
 //Starter Code
 // Task 1
