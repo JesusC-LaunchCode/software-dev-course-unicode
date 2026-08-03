@@ -100,25 +100,6 @@ let firstCodeCharacter = inputString2.charCodeAt(0);
 let secondCodeCharacter = inputString2.charCodeAt(5);
 let swappedString = String.fromCharCode(secondCodeCharacter) + inputString2.slice(1, 4) + String.fromCharCode(firstCodeCharacter); // Your code here
 
-/*
-Exercise 3: Find the Character Difference
-Objective: Extract the Unicode code points of two given characters from a string
-and calculate the absolute difference between them.
-
-Instructions:
-Write a program that takes a string with at least two characters and two specified indices.
-Use charCodeAt to find the Unicode code points of the characters at the specified indices.
-Calculate the absolute difference between the two code points and assign it to a variable named codePointDifference.
-Input:
-let inputString = "Cat";
-let index1 = 0;
-let index2 = 2;
-
-Expected Output:
-codePointDifference: 16 // 'C' = 67, 't' = 116, |67 - 116| = 16
-
-*/
-
 // Log all results
 console.log({
   firstCodePoint,
